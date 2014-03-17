@@ -1,0 +1,73 @@
+body {
+	color: #000000;
+	background-color: #E0E0E0;
+	font-family: 'Roboto';
+
+}
+
+h1 {
+	font-family: 'Shadows Into Light Two', sans-serif;
+	color: #3E1A1A;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	color: #3E1A1A;
+}
+
+
+ h3+ul {
+	list-style: none;
+}
+
+
+#name {
+	font-size: 50px;
+	color: #000000;
+
+}
+
+.job-title {
+	font-size: 30px;
+	color: #3E1A1A;
+}
+
+#head {
+	text-align: center;
+	font-family: 'Shadows Into Light Two', sans-serif;
+	background-color: #A94949;
+	padding: 20px;
+}
+
+#job_experience {
+		float: left;
+		width: 100%;
+		background-color: #DCAEAE;
+		text-align: center;
+	}
+
+#school {
+		float: left;
+		width: 500px;
+		background-color: #A94949;
+		text-align: center;
+	}
+
+#skills_list {
+		float: left;
+		width: 705px;
+		height: 281px;
+		background-color: #A94949;
+	}
+
+footer {
+		text-align: center;
+		clear: both;
+		padding: 20px;
+		background-color: #DCAEAE;
+		color: #000000;
+	}
+
+
+
