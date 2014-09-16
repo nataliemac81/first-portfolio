@@ -62,9 +62,14 @@ header {
 /*--------------------*/
 
 .name {
-	font-size: 50px;
+	font-size: 70px;
 	text-align: center;
 	text-transform: uppercase;
+	clear: both;
+	padding-top: 75px;
+	color: #f567ac;
+	font-weight: lighter;
+	letter-spacing: 0.05em;
 }
 
 .little-c {
