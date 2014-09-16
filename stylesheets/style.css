@@ -1,123 +1,90 @@
-html,body {
-	margin: 0;
-	padding: 0;
-}
-
 body {
-	font-family: 'Roboto', Helvetica, Sans-serif;
-	font-size: 12px;
+	font-family: 'Helvetica Neue', Sans-serif;
+	font-size: 16px;
 	color: #000000;
-	background-color: #AAD7EE;
-}
-
-.hidden {
-	display: none;
-}
-
-a:link {
-	color: yellow;
-}
-a:hover {
-	color: black;
-}
-
-a:visited {
-	color: gray;
-}
-
-a:active {
-	color: black;
+	margin: 0px;
 }
 
 #page-container {
-	width: 760px;
+	width: 100%;
+	height: auto;
 	margin: auto;
+
 }
 
-#main-nav {
-	background-color: red;
-	height: 50px;
+/* header styling */
+
+header {
+	position: fixed;
+	width: 100%;
+	height: 50%;
+	border: 1px solid #ccc;
+	background: lightgray;
 }
 
-#header {
-	height: 150px;
+
+.header-img {
+
 }
 
-#social {
-	text-align: center;
-	background-color: yellow;
-	padding: 20px;
-	border-radius: 2px;
-}
 
-#tagline {
-	font-family: 'Shadows Into Light Two', sans-serif;
-	font-weight: bold;
-	font-size: 20px;
-}
+/* nav bar styling */
 
-#name {
-	font-family: 'Shadows Into Light Two', sans-serif;
-	font-weight: bold;
-	font-size: 36px;
-}
-
-h1 {
-	margin: 0;
-	padding: 0;
-}
-
-#sidebar {
+.nav-bar {
 	float: right;
-	width: 200px;
-	line-height: 18px;
-	border: 4px solid black;
-	margin-top: 15px;
-}
-
-#sidebar .padding {
-	padding: 25px;
-}
-
-#sidebar p {
+/*	padding: 30px 30px 0px 0px;*/
 	text-align: center;
 }
 
-#favorite_movies a{
-	color: yellow;
+.nav-bar ul {
+	height: auto;
+	margin: auto;
+	padding: 20px 30px 0px 0px;
+
+}
+
+.nav-bar li {
+	display: inline-block;
+	padding: 10px;
+}
+
+.nav-bar a {
 	text-decoration: none;
+	color: #000000;
+	text-transform: uppercase;
+	font-size: 12px;
 }
 
-#content {
-	margin-right: 280px;
-	line-height: 18px;
+.nav-bar a:hover {
+	color: #69696B;
+}
+
+/*--------------------*/
+
+.name {
+	font-size: 50px;
 	text-align: center;
+	text-transform: uppercase;
 }
 
-#content .padding {
-	padding: 25px;
+.little-c {
+	text-transform: lowercase;
 }
 
-#content h2 {
-	margin: 0;
-	padding: 0;
-	padding-bottom: 15px;
-}
-
-#content p {
-	margin: 0;
-	padding: 0;
-	padding-bottom: 15px;
-}
-
-
-#footer {
-	height: 66px;
-	clear: both;
+.tagline {
 	text-align: center;
+	line-height: 1;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
 }
 
-#altnav a {
-	text-decoration: none;
-	color: yellow;
-}
+
+
+
+
+
+
+
+
+
+
