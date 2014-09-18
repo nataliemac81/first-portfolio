@@ -1,14 +1,23 @@
+html, body {
+	height: 100%;
+}
+
+
 body {
 	font-family: 'Helvetica Neue', Sans-serif;
 	font-size: 16px;
 	color: #000000;
-	margin: 0px;
+	margin: 0;
 }
 
 #page-container {
-	width: 100%;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+/*	width: 100%;
 	height: auto;
-	margin: auto;
+	margin: auto;*/
 /*	padding-top: 600px;*/
 
 }
@@ -111,6 +120,11 @@ header {
 
 
 /* Footer */
+
+footer , .push {
+	height: 4em;
+}
+
 footer {
 	width: 100%;
 	height: 150px;
@@ -119,22 +133,38 @@ footer {
 	background-size: cover;
 	background-position: 50% 45%;
 	box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.5);
-	clear: all;
+/*	clear: all;*/
 }
 
 .logo {
+	float: left;
 	margin: 20px 20px;
+	margin-bottom: -1em;
 }
 
-footer .nav-bar-footer {
+footer .nav-bar-footer a {
 	float: left;
-	margin-top: 50px;
-	
+	margin-top: 40px;
+	display: inline-block;
+	text-decoration: none;
+	color: rgba(0,0,0,0.7);
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 10px;
+}
 
+footer .nav-bar-footer a:hover {
+	color: #69696B;
 }
 
 .copyright {
-	float: left;
+/*	float: left;*/
+	clear: both;
+	padding-left: 12em;
+	font-size: 10px;
+	text-transform: uppercase;
+	color: rgba(0,0,0,0.7);
+/*	display: inline-block;*/
 }
 
 
