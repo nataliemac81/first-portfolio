@@ -15,17 +15,11 @@ body {
 	height: auto !important;
 	height: 100%;
 	margin: 0 auto -4em;
-/*	width: 100%;
-	height: auto;
-	margin: auto;*/
-/*	padding-top: 600px;*/
-
 }
 
 /* header styling */
 
 header {
-/*	position: fixed*/;
 	top: 0px;
 	width: 100%;
 	height: 500px;
@@ -48,7 +42,6 @@ header {
 	height: auto;
 	margin: auto;
 	padding: 20px 30px 0px 0px;
-
 }
 
 .nav-bar li {
@@ -101,14 +94,41 @@ header {
 .logo-img {
 	height: 60px;
 	width: 60px;
-	margin-left: 10px;
-	margin-top: 10px;
+	margin-left: 20px;
+	margin-top: 20px;
 }
 
 
 
 /* About me */
 
+h3 {
+	color: #f567ac;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.avatar-lockup {
+	max-width: 783px;
+	display: -webkit-flex;
+}
+
+.avatar {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background: url(../img/nat-avatar.jpg);
+	background-size: cover;
+}
+
+
+/*section p {
+	font-size: 16px;
+	text-align: center;
+	line-height: 200%;
+}
+*/
 
 
 
@@ -128,15 +148,13 @@ footer , .push {
 footer {
 	width: 100%;
 	height: 150px;
-/*	z-index: 10000;*/
 	background-image: url(../img/header_image.jpg);
 	background-size: cover;
 	background-position: 50% 45%;
 	box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.5);
-/*	clear: all;*/
 }
 
-.logo {
+.logo-footer {
 	float: left;
 	margin: 20px 20px;
 	margin-bottom: -1em;
@@ -158,13 +176,11 @@ footer .nav-bar-footer a:hover {
 }
 
 .copyright {
-/*	float: left;*/
 	clear: both;
 	padding-left: 12em;
 	font-size: 10px;
 	text-transform: uppercase;
 	color: rgba(0,0,0,0.7);
-/*	display: inline-block;*/
 }
 
 
