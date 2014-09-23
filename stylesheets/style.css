@@ -232,6 +232,83 @@ h3 {
   }
 }
 
+
+/* Projects section */
+
+.thumbnail-container {
+	max-width: 960px;
+	margin: 0px auto;
+	padding-bottom: 150px;
+	overflow: auto;
+}
+
+.thumbnail-unit-1 {
+	display: block;
+	width: 25%;
+	height: 200px;
+	float: left;
+	background-image: url(../img/alex_site.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*.thumbnail-unit-2 {
+	display: block;
+	width: 25%;
+	height: 200px;
+	float: left;
+	background-image: url(../img/alex_site.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}*/
+
+.thumbnail-unit-2 {
+	display: block;
+	width: 25%;
+	height: 200px;
+	float: left;
+	background-image: url(../img/alex_site.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.thumbnail-unit-3 {
+	display: block;
+	width: 25%;
+	height: 200px;
+	float: left;
+	background-image: url(../img/alex_site.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.thumbnail-unit-4 {
+	display: block;
+	width: 25%;
+	height: 200px;
+	float: left;
+	background-image: url(../img/alex_site.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+
+
+
+
+
+
+
 /* Footer */
 
 footer , .push {
