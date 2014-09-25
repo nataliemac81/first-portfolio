@@ -247,34 +247,27 @@ h3 {
 	width: 25%;
 	height: 200px;
 	float: left;
+	position: relative;
 	background-image: url(../img/alex_site.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	text-decoration: none;
+/*	padding-top: 20%;
+	overflow: hidden;*/
 }
-
-/*.thumbnail-unit-2 {
-	display: block;
-	width: 25%;
-	height: 200px;
-	float: left;
-	background-image: url(../img/alex_site.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-
-}*/
 
 .thumbnail-unit-2 {
 	display: block;
 	width: 25%;
 	height: 200px;
 	float: left;
-	background-image: url(../img/alex_site.jpg);
+	position: relative;
+	background-image: url(../img/books.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-
+	text-decoration: none;
 }
 
 .thumbnail-unit-3 {
@@ -282,11 +275,12 @@ h3 {
 	width: 25%;
 	height: 200px;
 	float: left;
-	background-image: url(../img/alex_site.jpg);
+	position: relative;
+	background-image: url(../img/sparkler.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-
+	text-decoration: none;
 }
 
 .thumbnail-unit-4 {
@@ -294,15 +288,51 @@ h3 {
 	width: 25%;
 	height: 200px;
 	float: left;
-	background-image: url(../img/alex_site.jpg);
+	position: relative;
+	background-image: url(../img/camera.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-
+	text-decoration: none;
 }
 
+.thumbnail-overlay {
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	-webkit-transition-property: width, height; /* Safari */
+  transition-property: width, height;
+  transition-duration: 0.5s;
+}
 
+.thumbnail-overlay:hover {
+/*	position: absolute;
+	top: 100%;
+	right: 0px;
+	left: 0px;
+	height: 100%;*/
+/*	display: block;*/
+	width: 100%;
+	height: 200px;
+	background-color: rgba(215,100,131,0.7);
+}
 
+.thumbnail-overlay strong {
+	padding: 30px;
+	text-transform: uppercase;
+	display: block;
+	color: white;
+	font-size: 24px;
+	font-weight: lighter;
+}
+/*.thumbnail-overlay:hover {
+	position: absolute;
+	top: 0%;
+	right: 0px;
+	left: 0px;
+	background-color: rgba(215,100,131,0.7);
+}
+*/
 
 
 
