@@ -20,9 +20,9 @@
 
 				<div class="nav-bar">
 					<ul>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Projects</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#project-section">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
 						<li><a href="#">Resume</a></li>
 						<li><a href="#">Blog</a></li>
 					</ul>
@@ -32,17 +32,21 @@
 				<p class="tagline">Web Developer // Designer // Problem Solver</p>
 			</header>
 
-			<section>
+			<section id="about">
 				<h3>About Me</h3>
 
 				<div class="avatar-lockup">
 					<div class="avatar"></div>
-					<div class="pen"><img src="img/pen.svg" class="pen-img" alt="pen icon"></div>
-					<div class="screen"><img src="img/screen.svg" class="screen-img" alt="screen icon"></div>
+					<div class="pencil">
+						<div class="icon-pencil"></div>
+					</div>
+					<div class="console">
+						<div class="icon-console"></div>
+					</div>
 				</div>
 				
 				<div class="blurb">
-					<p><strong>Hi, I’m Natalie. I make websites.</strong> I recently graduated from Dev Bootcamp in Chicago and learned a ton about programming fundamentals, how to build a website from the ground up, and that developers are constantly learning. I worked on some awesome projects with even more awesome people. I’m currently learning Angular JS and the basics of User Experience Design. Other things I love as much as coding are food, hip-hop, New Orleans, and documentaries.</p>
+					<p><strong>Hi, I’m Natalie. I make websites.</strong> I recently graduated from Dev Bootcamp in Chicago and learned a ton about programming fundamentals, how to build a website from the ground up, and that developers are constantly learning. I worked on some awesome <a href="#project-section" class="project-link">projects</a> with even more awesome people. I’m currently learning Angular.js and the basics of User Experience Design. Other things I love as much as coding are food, hip-hop, New Orleans, and documentaries.</p>
 				</div>
 			</section>
 
@@ -68,7 +72,7 @@
 
 					<div class="skill-unit">
 						<div class="skill-label">UX Design</div>
-						<div class="skill-icons skill-4">
+						<div class="skill-icons skill-5">
 							<span></span><span></span><span></span><span></span><span></span>
 							<span></span><span></span><span></span><span></span><span></span>
 						</div>
@@ -84,7 +88,7 @@
 
 					<div class="skill-unit">
 						<div class="skill-label">Test Driven Development</div>
-						<div class="skill-icons skill-4">
+						<div class="skill-icons skill-5">
 							<span></span><span></span><span></span><span></span><span></span>
 							<span></span><span></span><span></span><span></span><span></span>
 						</div>
@@ -92,7 +96,7 @@
 
 					<div class="skill-unit">
 						<div class="skill-label">Critical Thinking</div>
-						<div class="skill-icons skill-7">
+						<div class="skill-icons skill-9">
 							<span></span><span></span><span></span><span></span><span></span>
 							<span></span><span></span><span></span><span></span><span></span>
 						</div>
@@ -107,7 +111,7 @@
 					</div>
 
 					<div class="skill-unit">
-						<div class="skill-label">Listening</div>
+						<div class="skill-label">Collaboration</div>
 						<div class="skill-icons skill-9">
 							<span></span><span></span><span></span><span></span><span></span>
 							<span></span><span></span><span></span><span></span><span></span>
@@ -123,35 +127,27 @@
 
 				<div class="thumbnail-container">
 					
-					<a href="" class="thumbnail-unit-1">
+					<a href="http://nataliemac81.github.io" target="_blank" class="thumbnail-unit-1">
 						<div class="thumbnail-overlay">
-							<strong>Project 1</strong>
-							<div class="zoom-icon"></div>
-
+							<strong>natalie<br>mccroy.com</strong>
 						</div>
 					</a>
 
-					<a href="" class="thumbnail-unit-2">
+					<a href="http://evilalexmusic.com" target="_blank" class="thumbnail-unit-2">
 						<div class="thumbnail-overlay">
-							<strong>Project 2</strong>
-							<div class="zoom-icon"></div>
-
+							<strong>evilalex<br>music.com</strong>
 						</div>
 					</a>
 
-					<a href="" class="thumbnail-unit-3">
+					<a href="http://snpy.herokuapp.com" target="_blank" class="thumbnail-unit-3">
 						<div class="thumbnail-overlay">
-							<strong>Project 3</strong>
-							<div class="zoom-icon"></div>
-
+							<strong>snpy</strong>
 						</div>
 					</a>
 
-					<a href="" class="thumbnail-unit-4">
+					<a href="http://google.com" target="_blank" class="thumbnail-unit-4">
 						<div class="thumbnail-overlay">
-							<strong>Project 4</strong>
-							<div class="zoom-icon"></div>
-
+							<strong>HaikuGen</strong>
 						</div>
 					</a>
 				</div>
@@ -161,11 +157,11 @@
 			  <h3>Contact</h3>
 
 			  <div class="social-links">
-					<a href="" class="icon-github"></a>
-					<a href="" class="icon-linkedin"></a>
-					<a href="" class="icon-facebook"></a>
-					<a href="" class="icon-twitter"></a>
-					<a href="" class="icon-googleplus"></a>
+					<a href="https://github.com/nataliemac81" target="_blank" class="icon-github"></a>
+					<a href="https://www.linkedin.com/in/nataliemccroy" target="_blank" class="icon-linkedin"></a>
+					<a href="https://www.facebook.com/natalie.mccroy" target="_blank" class="icon-facebook"></a>
+					<a href="https://twitter.com/mccroy_natalie" target="_blank" class="icon-twitter"></a>
+					<a href="https://plus.google.com/+NatalieMcCroy" target="_blank" class="icon-googleplus"></a>
 				</div>
 
 				<hr class="bar">
@@ -187,13 +183,15 @@
 				</div>
 				
 			<div class="nav-bar-footer">
-				 <a href="#">About</a>
-				 <a href="#">Projects</a>
-				 <a href="#">Contact</a>
+				 <a href="#about">About</a>
+				 <a href="#project-section">Projects</a>
+				 <a href="#contact">Contact</a>
 				 <a href="#">Blog</a>
 			</div>
 			<div class="copyright"><p>Copyright &copy; Natalie McCroy 2014</p></div>
 		</footer>
+	<script src="js/functions.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	</body>
 </html>
 	

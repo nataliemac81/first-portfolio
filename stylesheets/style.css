@@ -134,7 +134,7 @@ h3 {
 	-ms-flex-order: 2;
 }
 
-.pen {
+.pencil {
 	height: 100px;
 	width: 100px;
 	-webkit-box-ordinal-group: 1;
@@ -148,7 +148,18 @@ h3 {
 	border-radius: 50%;
 }
 
-.screen {
+.icon-pencil {
+	display: inline-block;
+	height: 100px;
+	text-align: center;
+	width: 100px;
+	line-height: 100px;
+	color:#6d6e76;
+	font-size: 48px;
+	text-decoration: none;
+}
+
+.console {
 	height: 100px;
 	width: 100px;
 	-webkit-box-ordinal-group: 3;
@@ -162,6 +173,17 @@ h3 {
 	border-radius: 50%;
 }
 
+.icon-console {
+	display: inline-block;
+	height: 100px;
+	text-align: center;
+	width: 100px;
+	line-height: 100px;
+	color:#6d6e76;
+	font-size: 48px;
+	text-decoration: none;
+}
+
 .blurb {
 	max-width: 650px;
 	padding: 0 15px;
@@ -170,6 +192,15 @@ h3 {
 	letter-spacing: 0.08em;
 	font-weight: 300;
 	text-align: center;
+}
+
+.project-link {
+	text-decoration: none;
+	color: #f567ac;
+}
+
+.project-link:hover {
+	color: #6d6e76;
 }
 
 /* Skills section */
@@ -238,14 +269,14 @@ h3 {
 .thumbnail-container {
 	max-width: 960px;
 	margin: 0px auto;
-	padding-bottom: 150px;
+	padding-bottom: 200px;
 	overflow: auto;
 }
 
 .thumbnail-unit-1 {
 	display: block;
 	width: 25%;
-	height: 200px;
+	height: 250px;
 	float: left;
 	position: relative;
 	background-image: url(../img/alex_site.jpg);
@@ -258,7 +289,7 @@ h3 {
 .thumbnail-unit-2 {
 	display: block;
 	width: 25%;
-	height: 200px;
+	height: 250px;
 	float: left;
 	position: relative;
 	background-image: url(../img/books.jpg);
@@ -271,7 +302,7 @@ h3 {
 .thumbnail-unit-3 {
 	display: block;
 	width: 25%;
-	height: 200px;
+	height: 250px;
 	float: left;
 	position: relative;
 	background-image: url(../img/sparkler.jpg);
@@ -284,7 +315,7 @@ h3 {
 .thumbnail-unit-4 {
 	display: block;
 	width: 25%;
-	height: 200px;
+	height: 250px;
 	float: left;
 	position: relative;
 	background-image: url(../img/camera.jpg);
@@ -314,17 +345,19 @@ h3 {
 
 .thumbnail-overlay:hover {
 	width: 100%;
-	height: 200px;
+	height: 250px;
 	background-color: rgba(215,100,131,0.7);
 }
 
 .thumbnail-overlay strong {
-	padding: 30px;
+	padding: 100px 20px 50px 20px;
 	text-transform: uppercase;
 	display: block;
 	color: white;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: lighter;
+	line-height: 1.2;
+/*	text-align: center;*/
 }
 
 /* ----------------------- */
@@ -334,25 +367,26 @@ h3 {
 /* Contact section */
 
 #contact {
+	padding-top: 20px;
 	padding-bottom: 100px;
+	text-align: center;
+	background-color: #d3c1ab; 
 }
 
 .social-links {
 	max-width: 700px;
 	margin: 0px auto 50px;
 	display: -webkit-flex;
-/*	-webkit-align-items: center;*/
 	-webkit-justify-content: space-around;
 }
 
 .social-links a {
 	display: block;
-	background-color: #d3c1ab;
+	background-color: #f567ac;
 	height: 75px;
 	width: 75px;
-	text-align: center;
 	line-height: 75px;
-	color:#f567ac;
+	color: white;
 	border-radius: 50%;
 	font-size: 32px;
 	text-decoration: none;
@@ -370,14 +404,16 @@ h3 {
 }
 
 .email-link {
-	display: block;
-	text-align: center;
+	display: inline-block;
 	font-size: 64px;
 	text-decoration: none;
 	color: #f567ac;
 	font-weight: lighter;
 }
 
+.email-link:hover {
+	color: #69696B;
+}
 
 
 
