@@ -253,8 +253,6 @@ h3 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-decoration: none;
-/*	padding-top: 20%;
-	overflow: hidden;*/
 }
 
 .thumbnail-unit-2 {
@@ -296,22 +294,25 @@ h3 {
 	text-decoration: none;
 }
 
+@media (max-width: 645px) {
+  .thumbnail-unit-1,
+  .thumbnail-unit-2,
+  .thumbnail-unit-3,
+  .thumbnail-unit-4 {
+    width: 50%;
+  }
+}
+
 .thumbnail-overlay {
 	width: 100%;
 	height: 150px;
 	text-align: center;
-	-webkit-transition-property: width, height; /* Safari */
+	-webkit-transition-property: width, height;
   transition-property: width, height;
   transition-duration: 0.5s;
 }
 
 .thumbnail-overlay:hover {
-/*	position: absolute;
-	top: 100%;
-	right: 0px;
-	left: 0px;
-	height: 100%;*/
-/*	display: block;*/
 	width: 100%;
 	height: 200px;
 	background-color: rgba(215,100,131,0.7);
@@ -325,14 +326,58 @@ h3 {
 	font-size: 24px;
 	font-weight: lighter;
 }
-/*.thumbnail-overlay:hover {
-	position: absolute;
-	top: 0%;
-	right: 0px;
-	left: 0px;
-	background-color: rgba(215,100,131,0.7);
+
+/* ----------------------- */
+
+
+
+/* Contact section */
+
+#contact {
+	padding-bottom: 100px;
 }
-*/
+
+.social-links {
+	max-width: 700px;
+	margin: 0px auto 50px;
+	display: -webkit-flex;
+/*	-webkit-align-items: center;*/
+	-webkit-justify-content: space-around;
+}
+
+.social-links a {
+	display: block;
+	background-color: #d3c1ab;
+	height: 75px;
+	width: 75px;
+	text-align: center;
+	line-height: 75px;
+	color:#f567ac;
+	border-radius: 50%;
+	font-size: 32px;
+	text-decoration: none;
+}
+
+.social-links a:hover {
+	transform:scale(1.2);
+}
+
+.bar {
+	width: 350px;
+	height: 0px;
+	border: 2px solid #69696B;
+	margin: 0px auto 50px;
+}
+
+.email-link {
+	display: block;
+	text-align: center;
+	font-size: 64px;
+	text-decoration: none;
+	color: #f567ac;
+	font-weight: lighter;
+}
+
 
 
 
