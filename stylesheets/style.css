@@ -279,7 +279,7 @@ h3 {
 	height: 250px;
 	float: left;
 	position: relative;
-	background-image: url(../img/alex_site.jpg);
+	background-image: url(../img/screenshot-my-site.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -292,7 +292,7 @@ h3 {
 	height: 250px;
 	float: left;
 	position: relative;
-	background-image: url(../img/books.jpg);
+	background-image: url(../img/screenshot-evilalex.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -305,8 +305,8 @@ h3 {
 	height: 250px;
 	float: left;
 	position: relative;
-	background-image: url(../img/sparkler.jpg);
-	background-position: center center;
+	background-image: url(../img/screenshot-snpy.png);
+	background-position: 100% 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-decoration: none;
